@@ -24,6 +24,7 @@ header{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 header h1{
@@ -43,6 +44,8 @@ form button{
     font-weight: bold;
     border: none;
     cursor: pointer;
+    padding: 4px;
+    border-radius: 3px;
 }
 
 form input{
@@ -61,7 +64,11 @@ form input{
     margin-bottom: 56px;
 }
 
-#nota{
+#nomeAtividade{
+    margin-left: 18px;
+}
+
+#notaAtividade{
     max-width: 90px;
     width: 100%;
 }
@@ -96,4 +103,12 @@ table td img{
     font-weight: bold;
     color: white;
     border-radius: 3px;
+}
+
+.aprovado{
+    background-color: #009432;
+}
+
+.reprovado{
+    background-color: rgb(129, 0, 0);
 }
