@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    padding-top: 100px;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #E7E7E7;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+form button{
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form input{
+    font-size: 24px;
+    background-color: #E7E7E7;
+    border: none;
+    border-bottom: 2px solid black;
+    max-width: 270px;
+}
+
+.container form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+#nota{
+    max-width: 90px;
+    width: 100%;
+}
+
+table{
+    align-items: start;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100%;
+    text-align: start;
+    font-size: 24px;
+    text-align: center;
+}
+
+table th{
+    border-bottom: 2px solid black;
+}
+
+table td{
+    font-size: 20px;
+    padding: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+table td img{
+    height: 30px;
+}
+
+.resultado{
+    background-color: black;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}

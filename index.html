@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de médias</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--Fonte do google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Fonte do google fontes-->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./imagens/logo.png" alt="diploma">
+            <h1>Calculadora de médias</h1>
+        </header>
+        <form>
+            <input type="text" required placeholder="Nome da atividade" id="nomeAtividade">
+            <input type="number" required placeholder="Nota" id="nota">
+            <button type="submit" id="btAdd">Adicionar+</button>
+        </form>
+        <table cellspacing= "0">
+            <thead>
+                <tr>
+                    <th>Nome da atividade</th>
+                    <th>Nota da atividade</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atividade</td>
+                    <td>7</td>
+                    <td><img src="./imagens/aprovado.png" alt=""></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Media final</td>
+                    <td>7</td>
+                    <td><span class="resultado">Aprovado</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
