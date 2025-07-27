@@ -37,7 +37,6 @@ function addLinha(){
     
     let linha = `<tr><td>${inputNomeAtividade.value}</td><td>${inputNotaAtividade.value}</td><td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado}</td></tr>`;
     linhas += linha;
-    //alert(`Atividade: ${inputNomeAtividade.value} - nota: ${inputNotaAtividade.value}`)
     }
     inputNomeAtividade.value ='';
     inputNotaAtividade.value ='';
